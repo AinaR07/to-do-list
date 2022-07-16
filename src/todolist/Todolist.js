@@ -8,7 +8,7 @@ class TodoList extends React.Component{
         }
 
     }
-    onChange (event){
+    onChange (event){ 
         this.setState({
             userInput: event.target.value
         }, ()=> console.log("this.state.userInput"));
